@@ -1,3 +1,9 @@
 .field {
   border: 1px solid black;
+  margin: 0;
+}
+
+.score {
+  display: flex;
+  gap: 150px;
 }
