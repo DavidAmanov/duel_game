@@ -1,9 +1,20 @@
 .field {
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 0;
+  animation: borderAnimation 10s linear infinite;
 }
 
-.score {
-  display: flex;
-  gap: 150px;
+@keyframes borderAnimation {
+  0% {
+    border-color: rgb(97, 12, 97);
+  }
+  33% {
+    border-color: rgb(255, 46, 46);
+  }
+  66% {
+    border-color: #148dff;
+  }
+  100% {
+    border-color: rgb(219, 46, 219);
+  }
 }
